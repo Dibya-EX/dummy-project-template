@@ -1,12 +1,24 @@
-import Tool from './Tool'
-import ChatHistory from './ChatHistory'
-import './Sidebar.css'
+import Tool from "./tool";
+import ChatHistory from "./chathistory";
+import "./sidebar.css";
 
 export default function Sidebar() {
   return (
-    <aside className="sidebar">
+    <div className="sidebar">
+      {/* Top tools */}
       <Tool />
+
+      {/* Chat history */}
       <ChatHistory />
-    </aside>
-  )
+
+      {/* User profile */}
+      <div className="sidebar-profile">
+        <div className="avatar">T</div>
+        <div>
+          <p className="name">Tapasi sethy</p>
+          <span className="plan">Free</span>
+        </div>
+      </div>
+    </div>
+  );
 }

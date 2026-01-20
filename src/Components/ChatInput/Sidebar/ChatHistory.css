@@ -1,3 +1,20 @@
-.history p {
-  padding: 6px 0;
+.history {
+  margin-top: 15px;
+}
+
+.section-title {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.chat-item {
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.chat-item:hover {
+  background: #f0f0f0;
 }
