@@ -1,0 +1,23 @@
+.sidebar {
+  width: 260px;
+  background: #f7f7f8;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-chat {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.user {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+}

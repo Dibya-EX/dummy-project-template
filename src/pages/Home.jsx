@@ -1,19 +1,12 @@
-import Sidebar from '../components/Sidebar/Sidebar'
-import Navbar from '../components/Navbar/Navbar'
-import Container from '../components/Container/Container'
-import ChatInput from '../components/ChatInput/ChatInput'
-import './Home.css'
+import Container from "../Components/Container/Container";
+import ChatInput from "../Components/ChatInput/ChatInput";
+import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="app">
-      <Sidebar />
-
-      <div className="main">
-        <Navbar />
-        <Container />
-        <ChatInput />
-      </div>
+    <div className="home">
+      <Container />
+      <ChatInput />
     </div>
-  )
+  );
 }
